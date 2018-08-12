@@ -27,7 +27,7 @@ if(max>a[i])
 	max=a[i];
 }
 }
-System.out.println();
-System.out.print(max+" ");
+
+System.out.print(max);
 }
 }
