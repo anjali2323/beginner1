@@ -10,13 +10,13 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		int N,K,sum=0;
-		Scanner sc=new Scanner(System.in);
-		N=sc.nextInt();
-		K=sc.nextInt();
+		Scanner s=new Scanner(System.in);
+		N=s.nextInt();
+		K=s.nextInt();
 		int[] a=new int[10];
 		for(int i=0;i<N;i++)
 		{
-			a[i]=sc.nextInt();
+			a[i]=s.nextInt();
 			if(i<K)
 			{
 				sum=sum+a[i];
