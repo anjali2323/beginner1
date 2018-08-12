@@ -18,7 +18,7 @@ class Ideone
 		}
 		else if(year%100==0)
 		{
-			System.out.println("No");
+			System.out.println("no");
 		}
 		else if((year%4==0))
 		{
@@ -26,7 +26,7 @@ class Ideone
 		}
 		else
 		{
-			System.out.println("No");
+			System.out.println("no");
 		}
 	}
 }
