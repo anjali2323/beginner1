@@ -10,8 +10,8 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		int year;
-		Scanner s=new Scanner(System.in);
-		year =s.nextInt();
+		Scanner sc=new Scanner(System.in);
+		year =sc.nextInt();
 		if(year%400==0)
 		{
 			System.out.println("yes");
