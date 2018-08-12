@@ -11,10 +11,10 @@ class Ideone
 	{
 	int x,y,z;
 	
-	Scanner sc=new Scanner(System.in);
-	x=sc.nextInt();
-	y=sc.nextInt();
-	z=sc.nextInt();
+	Scanner s=new Scanner(System.in);
+	x=s.nextInt();
+	y=s.nextInt();
+	z=s.nextInt();
 	if(x>y&&x>z)
 	System.out.println(x);
 	else if(y>x&&y>z)
